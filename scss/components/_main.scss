@@ -25,7 +25,7 @@ body {
 
 .cam-body {
 	position: relative;
-	background: $primary;
+	background: $body-colour;
 	height: 300px;
 	width: 450px;
 	margin: 225px auto;
@@ -35,7 +35,7 @@ body {
 
 .light {
 	position: absolute;
-	background: $secondary;
+	background: $bright;
 	height: 20px;
 	width: 20px;
 	border-radius: 15px;
@@ -45,7 +45,7 @@ body {
 
 .button {
 	position: absolute;
-	background: $tertiary;
+	background: $bright;
 	height: 20px;
 	width: 70px;
 	border-radius: 10px 10px 0 0;
@@ -64,11 +64,67 @@ body {
 
 .stripe {
 	position: absolute;
-	background: $secondary;
+	background: $bright;
 	height: 90px;
 	width: 450px;
 	margin: 105px 0;
 }
+
+//Camera Lens
+
+.lens-whole {
+	position: absolute;
+	background: $body-colour;
+	height: 170px;
+	width: 170px;
+	border-radius: 170px;
+	margin: 70px 135px;
+}
+
+.lens1 {
+	position: absolute;
+	background: $shadow;
+	height: 145px;
+	width: 145px;
+	border-radius: 145px;
+	margin: 12.5px;
+}
+
+.lens2 {
+	position: absolute;
+	background: $darker-shadow;
+	height: 110px;
+	width: 110px;
+	border-radius: 110px;
+	margin: 30px;
+}
+
+.lens3 {
+	position: absolute;
+	background: $background;
+	height: 75px;
+	width: 75px;
+	border-radius: 75px;
+	margin: 47.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

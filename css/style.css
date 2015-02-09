@@ -55,7 +55,7 @@ body {
 /* line 46, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
 .button {
   position: absolute;
-  background: #E0B5A8;
+  background: #FA7373;
   height: 20px;
   width: 70px;
   border-radius: 10px 10px 0 0;
@@ -78,3 +78,39 @@ body {
   height: 90px;
   width: 450px;
   margin: 105px 0; }
+
+/* line 75, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
+.lens-whole {
+  position: absolute;
+  background: #FFF2F2;
+  height: 170px;
+  width: 170px;
+  border-radius: 170px;
+  margin: 70px 135px; }
+
+/* line 84, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
+.lens1 {
+  position: absolute;
+  background: #80B4C4;
+  height: 145px;
+  width: 145px;
+  border-radius: 145px;
+  margin: 12.5px; }
+
+/* line 93, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
+.lens2 {
+  position: absolute;
+  background: #4F8B9E;
+  height: 110px;
+  width: 110px;
+  border-radius: 110px;
+  margin: 30px; }
+
+/* line 102, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
+.lens3 {
+  position: absolute;
+  background: #A8D3E0;
+  height: 75px;
+  width: 75px;
+  border-radius: 75px;
+  margin: 47.5px; }
