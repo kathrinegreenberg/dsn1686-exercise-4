@@ -34,11 +34,20 @@ body {
   background: #B9EAED; }
 
 /* line 26, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
-.iphone-body {
+.cam-body {
   position: relative;
-  background: #FFF;
-  height: 600px;
-  width: 300px;
-  margin: 100px auto;
+  background: #FFEDED;
+  height: 300px;
+  width: 450px;
+  margin: 225px auto;
   border-radius: 30px;
   box-shadow: 4px 0 3px 0 #A1CED1; }
+
+/* line 36, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
+.light {
+  position: absolute;
+  background: #FA7373;
+  height: 20px;
+  width: 20px;
+  border-radius: 15px;
+  margin: 35px 0 0 35px; }
