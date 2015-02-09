@@ -27,8 +27,18 @@ html {
   text-size-adjust: 100%; }
 
 /* line 17, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
-html {
+body {
   top: 0;
   left: 0;
   margin: 0;
-  background: #ccccff; }
+  background: #B9EAED; }
+
+/* line 26, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
+.iphone-body {
+  position: relative;
+  background: #FFF;
+  height: 600px;
+  width: 300px;
+  margin: 100px auto;
+  border-radius: 30px;
+  box-shadow: 4px 0 3px 0 #A1CED1; }
