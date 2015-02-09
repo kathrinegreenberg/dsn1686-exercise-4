@@ -40,7 +40,6 @@ body {
 	width: 20px;
 	border-radius: 15px;
 	margin: 35px 0 0 35px;
-	//box-shadow: 3px 0 2px 0 $tertiary;
 }
 
 .button {
@@ -108,6 +107,23 @@ body {
 	margin: 47.5px;
 }
 
+.highlight1 {
+	position: absolute;
+	background: $body-colour;
+	height: 17px;
+	width: 17px;
+	border-radius: 17px;
+	margin: 15px 15px;
+}
+
+.highlight2 {
+	position: absolute;
+	background: $body-colour;
+	height: 7px;
+	width: 7px;
+	border-radius: 7px;
+	margin: 50px 50px;
+}
 
 
 
