@@ -36,7 +36,7 @@ body {
 /* line 26, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
 .cam-body {
   position: relative;
-  background: #FFEDED;
+  background: #FFF2F2;
   height: 300px;
   width: 450px;
   margin: 225px auto;
@@ -51,3 +51,12 @@ body {
   width: 20px;
   border-radius: 15px;
   margin: 35px 0 0 35px; }
+
+/* line 46, /Users/kathrinegreenberg/Documents/School/Web Dev/dsn1686-exercise-4/scss/components/main */
+.button {
+  position: absolute;
+  background: #E3BFBF;
+  height: 25px;
+  width: 80px;
+  border-radius: 15px 15px 0 0;
+  margin: -25px 50px; }
