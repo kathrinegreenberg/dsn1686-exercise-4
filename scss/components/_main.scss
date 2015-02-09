@@ -21,7 +21,7 @@ body {
 	background: $background;
 }
 
-//iPhone 
+//Camera 
 
 .cam-body {
 	position: relative;
@@ -72,57 +72,33 @@ body {
 //Camera Lens
 
 .lens-whole {
-	position: absolute;
-	background: $body-colour;
-	height: 170px;
-	width: 170px;
-	border-radius: 170px;
+	@include lens($body-colour, $large-circle);
 	margin: 70px 135px;
 }
 
 .lens1 {
-	position: absolute;
-	background: $shadow;
-	height: 145px;
-	width: 145px;
-	border-radius: 145px;
+	@include lens($shadow, $medium-circle);
 	margin: 12.5px;
 }
 
 .lens2 {
-	position: absolute;
-	background: $darker-shadow;
-	height: 110px;
-	width: 110px;
-	border-radius: 110px;
+	@include lens($darker-shadow, $small-circle);
 	margin: 30px;
 }
 
 .lens3 {
-	position: absolute;
-	background: $background;
-	height: 75px;
-	width: 75px;
-	border-radius: 75px;
+	@include lens($background, $smallest-circle);
 	margin: 47.5px;
 }
 
 .highlight1 {
-	position: absolute;
-	background: $body-colour;
-	height: 17px;
-	width: 17px;
-	border-radius: 17px;
-	margin: 15px 15px;
+	@include lens($body-colour, $highlight);
+	margin: 15px;
 }
 
 .highlight2 {
-	position: absolute;
-	background: $body-colour;
-	height: 7px;
-	width: 7px;
-	border-radius: 7px;
-	margin: 50px 50px;
+	@include lens($body-colour, $highlight-small);
+	margin: 50px;
 }
 
 

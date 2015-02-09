@@ -1,0 +1,9 @@
+@mixin lens($main-color, $circle){
+	position: absolute;
+	background: $main-color;
+	height: $circle;
+	width: $circle;
+	border-radius: $circle;
+}
+
+
